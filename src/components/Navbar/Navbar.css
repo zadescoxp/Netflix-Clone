@@ -1,0 +1,89 @@
+.navbar {
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    color: #e5e5e5;
+    font-size: 14px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10%, transparent);
+    z-index: 1;
+}
+.nav-dark {
+    background: #141414;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar-left img {
+    width: 90px;
+}
+.navbar-left ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar-left ul li {
+    cursor: pointer;
+}
+.navbar-right {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar-right .icons {
+    width: 20px;
+    cursor: pointer;
+}
+.navbar-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.navbar-profile .dropDown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: 1;
+    display: none;
+
+}
+.navbar-profile .dropDown p {
+    font-size: 13px;
+    cursor: pointer;
+}
+.navbar-profile:hover .dropDown {
+    display: block;
+}
+
+@media (max-width: 1060px) {
+    .navbar {
+        padding: 20px 4%;
+    }
+    .navbar-left ul {
+        display: none;
+    }
+    .navbar img {
+        height: 25px;
+        width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar img {
+        height: 20px;
+        width: auto;
+    }
+    .navbar-right {
+        gap: 10px;
+    }
+}
