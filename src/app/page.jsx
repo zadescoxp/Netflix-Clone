@@ -40,7 +40,7 @@ export default function Home() {
       headers: {
         accept: "application/json",
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyN2Y1Y2E5YThlZGFkZjgzM2FjN2ExMGFlZTdlZDIzMCIsIm5iZiI6MTcyMTc5OTk0MS4wMzAwMDE0LCJzdWIiOiI2NmEwOTQyMmEzOTU0MDVhZWY0MDNiZTkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.JKBEw8WZVG5dfd4pm3E209cUMEW1vwNg10v5CH_ttDg",
+          "YOUR_AUTHORIZATION",
       },
     };
 

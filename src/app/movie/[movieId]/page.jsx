@@ -29,7 +29,7 @@ export default function Movie({ params }) {
     headers: {
       accept: "application/json",
       Authorization:
-        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyN2Y1Y2E5YThlZGFkZjgzM2FjN2ExMGFlZTdlZDIzMCIsIm5iZiI6MTcyMTg5NTQzMi40NDU0NzIsInN1YiI6IjY2YTA5NDIyYTM5NTQwNWFlZjQwM2JlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CS5r0DV_5Tzuu2xtq-Phjnmzgom4Jxn86qcRIqmDVjQ",
+        "YOUR_AUTHORIZATION",
     },
   };
   useEffect(() => {
