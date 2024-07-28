@@ -4,6 +4,8 @@
 
 This is Netflix Clone built with Next.js, Google Firebase, TMDB. It is just for educational purpose no intent for any commercial usage.
 
+Check out the site here https://netflix-clone-production.vercel.app/
+
 ## Features
 
 - **Authentication**: Users can sign up and log in to their accounts using their email and password. Firebase handles the authentication process.
